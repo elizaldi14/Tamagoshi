@@ -5,7 +5,7 @@ int main(){
 
 /*Obtenemos el nombre del tamagoshi*/
 char name[20];
-printf("Hola papu que papu nombre le quieres poner a un tachillomi: ");
+printf("Hola papu ingresa el nombre a tu tamagochi: ");
 scanf("%s", name);
 
 /*Hacemos el menu inicial*/
@@ -22,7 +22,7 @@ switch(option){
     
     case 1:
         printf("\033[2J");
-        printf("(1) Jugar al parque\n(2) Jugar con juguete\n(3) No jugar\nIngrese un valor: \n");
+        printf("(1) Jugar al parque\n(2) Jugar con juguete\n(3) No jugar\nIngrese un valor: ");
         scanf("%d", &subOption);
 
         switch(subOption){
@@ -51,7 +51,7 @@ switch(option){
 
     case 2:
         printf("\033[2J");
-        printf("(1) Comer fruta\n(2) Comer comida rapida\n(3) No comer\nIngrese un valor: \n");
+        printf("(1) Comer fruta\n(2) Comer comida rapida\n(3) No comer\nIngrese un valor: ");
         scanf("%d", &subOption);
 
         switch(subOption){
@@ -92,7 +92,7 @@ switch(option){
 
     case 3:
         printf("\033[2J");
-        printf("(1) Dormir una siesta\n(2) Dormir toda la noche\n(3) No dormi\nIngrese un valor: \n");
+        printf("(1) Dormir una siesta\n(2) Dormir toda la noche\n(3) No dormi\nIngrese un valor: ");
         scanf("%d", &subOption);
 
         switch(subOption){
